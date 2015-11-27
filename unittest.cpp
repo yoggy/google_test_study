@@ -37,8 +37,7 @@ TEST(UnitTestName, Test02)
 	for (int i = 0; i < 10000; ++i) {
 		f += 0.1;
 	}
-	std::cout << f << std::endl;
-	ASSERT_NEAR(1000.0f, f, 0.1f);
+	ASSERT_NEAR(1000.0f, f, 0.1f);  // <- f is 999.903...
 }
 
 int main(int argc, char * argv[])
