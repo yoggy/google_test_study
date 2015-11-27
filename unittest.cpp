@@ -2,7 +2,7 @@
 
 #include "sample_class.h"
 
-TEST(TestGroupName, Test01)
+TEST(UnitTestName, Test01)
 {
 	SampleClass sample;
 	ASSERT_EQ(0, sample.value());
@@ -14,7 +14,7 @@ TEST(TestGroupName, Test01)
 	ASSERT_EQ(3, sample.value());
 }
 
-TEST(TestGroupName, Test02)
+TEST(UnitTestName, Test02)
 {
 	// see also
 	// http://opencv.jp/googletestdocs/primer.html
