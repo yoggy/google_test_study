@@ -20,6 +20,20 @@ for Ubuntu 14.04...
     $ cmake . 
     $ make
     $ ./unittest
+    [==========] Running 2 tests from 1 test case.
+    [----------] Global test environment set-up.
+    [----------] 2 tests from TestGroupName
+    [ RUN      ] TestGroupName.Test01
+    [       OK ] TestGroupName.Test01 (1 ms)
+    [ RUN      ] TestGroupName.Test02
+    999.903
+    [       OK ] TestGroupName.Test02 (0 ms)
+    [----------] 2 tests from TestGroupName (1 ms total)
+    
+    [----------] Global test environment tear-down
+    [==========] 2 tests from 1 test case ran. (1 ms total)
+    [  PASSED  ] 2 tests.
+    $
 
 Sample
 ----
